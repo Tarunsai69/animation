@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/268/739/original/simple-village-house-background-vector.jpg);
+    background-attachment: fixed;
+    background: position 0px;
+    background-repeat: repeat;
+    background-size: cover;
+    animation-duration: 3s;
+    animation: bgmove 12s infinite linear;
+    height: 100%;
+    width: 100%;
+}
+@keyframes bgmove{
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: 5000px;
+    }
+}
+.car{
+    position: relative;
+    top:500px;
+    position:absolute;
+    /* right: 0%; */
+    animation: car 5s infinite linear;
+}
+.car:hover{
+    transform: translateX(100vw);
+    transition-duration: 4s;
+
+}
+::-webkit-scrollbar{
+    overflow-x: hidden;
+}
+@keyframes ta{
+    0%{
+        right:0%;
+    }
+    100%{
+        right:100%;
+    }
+    
+}
